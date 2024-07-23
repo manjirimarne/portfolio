@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cbaaaa;
+        }
+
+        header {
+            background-color: #b96e4e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #e6e1e1;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        #about, #education, #contact {
+            background-color: #ab9999;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(204, 197, 197, 0.1);
+        }
+
+        #business {
+            background-color: #a5afaf;
+            padding: 1rem;
+        }
+
+        .business-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .business-item {
+            background-color: #c37d7d;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            margin: 1rem;
+            max-width: calc(33.333% - 2rem);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .business-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #c37d7d;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio of [Your Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Manjiri, the owner of ManGs cakes. I am passionate about Baking. Welcome to my portfolio where I showcase my business and educational qualifications.</p>
+    </section>
+
+    <section id="business">
+        <h2>My Business</h2>
+        <div class="business-section">
+            <div class="business-item">
+                <img src="business1.jpg" alt="Business 1">
+                <h3>Business 1</h3>
+                <p>Description of Business 1</p>
+            </div>
+            <div class="business-item">
+                <img src="business2.jpg" alt="Business 2">
+                <h3>Business 2</h3>
+                <p>Description of Business 2</p>
+            </div>
+            <!-- Add more business items as needed -->
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Educational Qualifications</h2>
+        <ul>
+            <li>Diploma Degree in computer engineering (government polytechnic pune)</li>
+            <li>diploma in foreign language from sppu</li>
+            <li>diploma in hotel mangement from government college of hotel management</li>
+            
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mangscakes@gmail,com">mangscakes@gmail.com</a></p>
+        <p>Phone: 8080352937</p>
+        <p>Follow me on social media:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/mangs_cakes?igsh=OHFoZGx0eXA5a2lm">Instagram</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
